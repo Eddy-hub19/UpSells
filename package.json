@@ -2,7 +2,7 @@
   "name": "upsells",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://eddy-hub19.github.io/UpSells",
+  "homepage": "https://eddy-hub19.github.io/UpSells/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
