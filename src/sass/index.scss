@@ -1,2 +1,21 @@
-@import './common';
-@import './example';
+@import './utils/common';
+@import './utils/reset';
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/body';
+@import './utils/container';
+@import './utils/visually-hidden';
+
+@import './components/header';
+@import './components/hero';
+@import './components/rating-green';
+@import './components/repeat-purchase';
+@import './components/features';
+@import './components/global-settings';
+@import './components/plugin-bp';
+@import './components/plans';
+@import './components/pricing';
+@import './components/reviews';
+@import './components/faq';
+@import './components/month-of-working';
+@import './components/footer';
