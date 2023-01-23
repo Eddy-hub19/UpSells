@@ -1,0 +1,31 @@
+.header {
+  background: #0e2e29;
+  backdrop-filter: blur(20px);
+  padding: 20px;
+}
+.container__header {
+  padding: 0px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--primary-text-color);
+}
+.logo__title-green {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  color: var(--accent-color);
+}
+.menu-icon {
+  margin-left: 100px;
+  background-color: inherit;
+  border: none;
+}
