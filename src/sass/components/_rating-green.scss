@@ -1,0 +1,28 @@
+.rating {
+  padding-bottom: 60px;
+}
+.rating__list {
+  margin-bottom: 60px;
+}
+.rating__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.rating__number {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.17;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: var(--accent-color);
+}
+.rating__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.green__box {
+  width: 280px;
+  height: 200px;
+  background: #0e2e29;
+  border-radius: 10px;
+}
