@@ -30,5 +30,16 @@
       <include src="./partials/month-of-working.html"></include>
     </main>
     <include src="./partials/footer.html"></include>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'swiper/swiper-bundle.esm.js';
+      import 'swiper/swiper-bundle.css';
+      var swiper = new Swiper('.swiper', {
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },
+      });
+    </script>
   </body>
 </html>
