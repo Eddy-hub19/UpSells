@@ -1,0 +1,112 @@
+.plans {
+  padding: 60px 0px;
+}
+.plans__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.plans__container {
+  display: flex;
+  margin-bottom: 40px;
+  //   gap: 20px;
+}
+.plans__pro {
+  margin-right: 20px;
+}
+.plans__pro-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.plans__pro-price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}
+.plans__pro-btn {
+  font-weight: 700;
+  //   padding: 20px 27px;
+  background: var(--accent-color);
+  width: 130px;
+  height: 61px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--accent-text-color);
+}
+.plans__free-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.plans__free-price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 30px;
+}
+.plans__free-btn {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  //   padding: 20px 27px;
+  width: 130px;
+  height: 61px;
+}
+.score__item {
+  border-bottom: 3px solid #0e2e29;
+}
+.score__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.score__title {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.score__points-container {
+  display: flex;
+  //   gap: 81px;
+  justify-content: center;
+  padding-bottom: 18.5px;
+  align-items: center;
+}
+.score__points {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.score__points-icon {
+  margin-right: 15px;
+}
+.score__points:not(:first-child) {
+  margin-left: 81px;
+}
+.score__points-fix {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.score__points-fix:not(:first-child) {
+  margin-left: 38px;
+}
