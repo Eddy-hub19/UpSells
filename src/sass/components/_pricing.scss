@@ -1,0 +1,116 @@
+.pricing {
+  padding: 60px 0px;
+}
+.pricing__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.container__year {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.pricing__desc {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+.pricing__desc-icon {
+  margin-left: 20px;
+}
+.pricing__card {
+  background: #0e2e29;
+  border-radius: 10px;
+  padding: 20px 0px;
+}
+.pricing__card:not(:last-child) {
+  margin-bottom: 20px;
+}
+.pricing__card-unlimited {
+  background: var(--accent-color);
+}
+.pricing__cart-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pricing__price {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.17;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+.container__pricing-difference {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pricing__difference {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  border-bottom: 2px solid #ffffff;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.pricing__difference:not(:first-child) {
+  padding-top: 15px;
+}
+.pricing__btn-buy {
+  font-family: 'Raleway';
+  font-style: normal;
+  background: var(--accent-color);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 30px 85px;
+  color: var(--accent-text-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+  height: 81px;
+}
+.pricing__btn-free {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: inherit;
+  padding: 30px 75px;
+  color: var(--primary-text-color);
+  width: 240px;
+  height: 81px;
+}
+.pricing__cart-title-unlimited {
+  color: var(--accent-text-color);
+}
+.pricing__price-unlimited {
+  color: var(--accent-text-color);
+}
+.pricing__difference-unlimited {
+  color: var(--accent-text-color);
+  border-bottom: 2px solid #020e0c;
+}
+.pricing__btn-buy-unlimited {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+.pricing__btn-free-unlimited {
+  border: 3px solid #020e0c;
+  color: var(--accent-text-color);
+}
