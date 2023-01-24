@@ -1,0 +1,25 @@
+.settings {
+  padding-bottom: 90px;
+}
+.settings__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}
+.settings__desc {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.settings__text {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.settings__btn {
+  padding: 30px 79px;
+}
