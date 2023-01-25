@@ -11,5 +11,11 @@
 <symbol id="icon-score__points-free" viewBox="0 0 26 32">
 <path fill="none" stroke="#1eebcd" style="stroke: var(--color1, #1eebcd)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.0476" d="M24.381 16l-22.857 13.197v-26.393l22.857 13.197z"></path>
 </symbol>
+<symbol id="icon-btn-read-more" viewBox="0 0 27 32">
+<path fill="#1eebcd" style="fill: var(--color1, #1eebcd)" d="M25.5 13.402c2 1.155 2 4.041 0 5.196l-21 12.124c-2 1.155-4.5-0.289-4.5-2.598v-24.249c0-2.309 2.5-3.753 4.5-2.598l21 12.124z"></path>
+</symbol>
+<symbol id="icon-btn-read-more-active" viewBox="0 0 38 32">
+<path fill="#1eebcd" style="fill: var(--color1, #1eebcd)" d="M22.042 30.222c-1.369 2.37-4.79 2.37-6.158 0l-14.37-24.889c-1.369-2.37 0.342-5.333 3.079-5.333h28.739c2.737 0 4.448 2.963 3.079 5.333l-14.37 24.889z"></path>
+</symbol>
 </defs>
 </svg>
