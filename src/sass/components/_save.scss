@@ -1,0 +1,26 @@
+.save {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-image: url('/src/images/save-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.save__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  color: var(--accent-color);
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 20px;
+}
+.save__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 30px;
+}
+.save__btn {
+  padding: 30px 102px;
+  box-shadow: none;
+}
