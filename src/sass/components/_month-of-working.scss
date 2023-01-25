@@ -1,0 +1,115 @@
+.month__working {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.month__working-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  padding-right: 10px;
+  margin-bottom: 2px;
+}
+.month__working-user-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.month__working-user-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.month__working-user-name-container {
+  margin-left: 10px;
+}
+.month__working-user-position {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.month__working-left {
+  margin-left: 31px;
+  margin-right: 10px;
+}
+.month__working-before-container {
+  max-width: 130px;
+}
+.month__working-before-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.month__working-before-item:not(:last-child) {
+  margin-bottom: 26px;
+}
+.month__working-before-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.month__working-before-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  background: #0e2e29;
+  border-radius: 10px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.month__working-before-price-2 {
+  padding: 16.5px 20px;
+}
+.month__working-before-price-3 {
+  padding: 27.5px 20px;
+}
+.month__working-after-container {
+  width: 130px;
+}
+.month__working-after-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.month__working-after-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.month__working-after-price {
+  background: var(--accent-color);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: var(--accent-text-color);
+}
+.month__working-after-price-1 {
+  padding: 29.5px 20px;
+}
+.month__working-after-price-2 {
+  padding: 39.5px 20px;
+}
+.month__working-after-price-3 {
+  padding: 64.5px 20px;
+}
+.month__working-container-all {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+.month__working-desc {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.month__working-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
