@@ -1,7 +1,9 @@
 .header {
   background: #0e2e29;
-  // backdrop-filter: blur(20px);
   padding: 20px 0px;
+  @media screen and (min-width: $tablet) {
+    backdrop-filter: blur(20px);
+  }
 }
 .container__header {
   padding: 0px;
@@ -28,6 +30,9 @@
   margin-left: 100px;
   background-color: inherit;
   border: none;
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
 .header__nav-container {
   position: fixed;
@@ -58,6 +63,9 @@
   right: 20px;
   border: none;
   background: transparent;
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
 .header__nav-list {
   display: flex;
@@ -88,6 +96,9 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 40px;
+  @media screen and (min-width: $tablet) {
+    padding: 30px 60px;
+  }
 }
 .header__btn-login-icon {
   margin-left: 10px;
@@ -104,7 +115,15 @@
   background: #ffffff;
   color: var(--accent-text-color);
   border: none;
+  @media screen and (min-width: $tablet) {
+    padding: 30px 60px;
+  }
 }
 .no-scroll {
   overflow-y: hidden;
+}
+.header__btn-container {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
 }
