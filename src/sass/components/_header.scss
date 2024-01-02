@@ -38,21 +38,27 @@
   }
 
   &__list {
-    display: flex;
-    gap: 60px;
-
     @include mobile {
       display: none;
+    }
+  }
+
+  &__list {
+    @include desktop {
+      display: flex;
+      gap: 60px;
     }
 
     &-item {
       &__link {
-        color: white;
-        font-family: Raleway;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
+        @include desktop {
+          color: white;
+          font-family: Raleway;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.5;
+        }
       }
     }
   }
