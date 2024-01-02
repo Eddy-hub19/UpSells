@@ -1,18 +1,44 @@
 <header class="header">
   <div class="container">
     <div class="container__header">
-    <nav class="nav">
-      <p class="logo__title"><span class="logo__title-green">Up</span>Sells</p>
-      <div class="header__btn-container">
-        <button type="button" class="menu-icon" aria-controls="mobile-menu">
-          <svg width="50" height="26">
-            <use href="/src/images/symbol-defs.svg#icon-mobile-menu"></use>
-          </svg>
-        </button>
-      </div>
-</div>
-       <div class="header__nav-container">
-              <button type="button" class="menu-close" aria-controls="mobile-menu">
+      <nav class="nav">
+        <p class="logo__title"><span class="logo__title-green">Up</span>Sells</p>
+
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__list-item__link" href="#">Features</a>
+          </li>
+
+          <li class="nav__list-item">
+            <a class="nav__list-item__link" href="#">Documentation</a>
+          </li>
+
+          <li class="nav__list-item">
+            <a class="nav__list-item__link" href="#">Support</a>
+          </li>
+        </ul>
+
+        <div class="header__btn-container nav-btn" >
+          <button type="button" class="header__btn-login">
+            Login
+            <svg width="24" height="24" class="header__btn-login-icon">
+              <use href="/src/images/symbol-defs.svg#icon-login"></use>
+            </svg>
+          </button>
+          <button class="header__btn-join" type="button">Join now</button>
+        </div>
+
+        <div class="header__btn-container">
+          <button type="button" class="menu-icon" aria-controls="mobile-menu">
+            <svg width="50" height="26">
+              <use href="/src/images/symbol-defs.svg#icon-mobile-menu"></use>
+            </svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="header__nav-container">
+      <button type="button" class="menu-close" aria-controls="mobile-menu">
         <svg class="icon-menu" width="36" height="26">
           <use href="/src/images/symbol-defs.svg#icon-menu-close"></use>
         </svg>
@@ -30,18 +56,18 @@
           <a class="header__nav-link link" href="#">Support</a>
         </li>
       </ul>
-    </nav>
-    <div class="header__btn-container">
-    <button type="button" class="header__btn-login">
-      Login
-      <svg width="24" height="24" class="header__btn-login-icon" >
-        <use href="/src/images/symbol-defs.svg#icon-login"></use>
-      </svg>
-    </button>
-    <button class="header__btn-join" type="button">Join now</button>
-    </div>
+      </nav>
+      <div class="header__btn-container">
+        <button type="button" class="header__btn-login">
+          Login
+          <svg width="24" height="24" class="header__btn-login-icon">
+            <use href="/src/images/symbol-defs.svg#icon-login"></use>
+          </svg>
+        </button>
+        <button class="header__btn-join" type="button">Join now</button>
+      </div>
     </div>
   </div>
-  
+
 
 </header>

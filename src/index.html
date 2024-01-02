@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Raleway:ital,wght@0,400;0,700;0,900;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/header.html"></include>
-    <main>
-      <include src="./partials/hero.html"></include>
-      <include src="./partials/rating-green.html"></include>
-      <include src="./partials/repeat-purchase.html"></include>
-      <include src="./partials/features.html"></include>
-      <include src="./partials/global-settings.html"></include>
-      <include src="./partials/plugin-bp.html"></include>
-      <include src="./partials/plans.html"></include>
-      <include src="./partials/pricing.html"></include>
-      <include src="./partials/reviews.html"></include>
-      <include src="./partials/faq.html"></include>
-      <include src="./partials/month-of-working.html"></include>
-      <include src="./partials/save.html"></include>
-    </main>
-    <include src="./partials/footer.html"></include>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script type="module">
-      import Swiper from 'swiper/swiper-bundle.esm.js';
-      import 'swiper/swiper-bundle.css';
-      var swiper = new Swiper('.swiper', {
-        scrollbar: {
-          el: '.swiper-scrollbar',
-          hide: true,
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Raleway:ital,wght@0,400;0,700;0,900;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <include src="./partials/header.html"></include>
+  <main>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/rating-green.html"></include>
+    <include src="./partials/repeat-purchase.html"></include>
+    <include src="./partials/features.html"></include>
+    <include src="./partials/global-settings.html"></include>
+    <include src="./partials/plugin-bp.html"></include>
+    <include src="./partials/plans.html"></include>
+    <include src="./partials/pricing.html"></include>
+    <include src="./partials/reviews.html"></include>
+    <include src="./partials/faq.html"></include>
+    <include src="./partials/month-of-working.html"></include>
+    <include src="./partials/save.html"></include>
+  </main>
+  <include src="./partials/footer.html"></include>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'swiper/swiper-bundle.esm.js';
+    import 'swiper/swiper-bundle.css';
+    var swiper = new Swiper('.swiper', {
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: true,
+      },
+      pagination: {
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
         },
-      });
-    </script>
-  </body>
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1920: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+      },
+    });
+  </script>
+</body>
+
 </html>

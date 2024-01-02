@@ -19,8 +19,20 @@
   line-height: 1.5;
   margin-bottom: 50px;
 }
+
+.features__list {
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
 .features__item {
   margin-bottom: 60px;
+  @include desktop {
+    width: calc(100% / 3);
+  }
 }
 .features__item-title {
   font-weight: 700;

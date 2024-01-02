@@ -4,6 +4,11 @@
 }
 .rating__list {
   margin-bottom: 60px;
+
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .rating__item:not(:last-child) {
   margin-bottom: 30px;
@@ -13,7 +18,9 @@
   font-weight: 700;
   font-size: 64px;
   line-height: 1.17;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings:
+    "pnum" on,
+    "lnum" on;
   color: var(--accent-color);
 }
 .rating__desc {
@@ -26,4 +33,13 @@
   height: 200px;
   background: #0e2e29;
   border-radius: 10px;
+  
+  @include tablet {
+    width: 728px;
+    height: 600px;
+  }
+  @include desktop {
+    width: 1290px;
+    height: 600px;
+  }
 }

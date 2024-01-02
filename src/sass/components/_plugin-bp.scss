@@ -7,7 +7,26 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 1.5;
+
+  @include desktop {
+    color: #fff;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 64px;
+    font-style: normal;
+  }
 }
+
+.plugin__item-container {
+  @include desktop {
+    margin-left: 30px;
+  }
+}
+
+.plugin__item {
+  display: flex;
+}
+
 .plugin__item:not(:last-child) {
   margin-bottom: 60px;
 }
@@ -17,6 +36,11 @@
 
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 30px;
+
+  @include desktop {
+    width: 30%;
+    height: auto;
+  }
 }
 .plugin__item-title {
   font-weight: 700;
@@ -24,9 +48,28 @@
   line-height: 1.5;
   color: var(--accent-color);
   margin-bottom: 20px;
+
+  @include desktop {
+    color: #1eebcd;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+  }
 }
 .plugin__item-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
+
+  @include desktop {
+    color: #fff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
 }

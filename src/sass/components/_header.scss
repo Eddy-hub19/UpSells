@@ -4,24 +4,84 @@
   @media screen and (min-width: $tablet) {
     backdrop-filter: blur(20px);
   }
+
+  &__btn-container {
+    @media screen and (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  @include desktop {
+    background: #020e0c;
+  }
 }
 .container__header {
   padding: 0px;
 }
+
+// desktop nav
+
 .nav {
-  display: flex;
-  align-items: center;
+  @include mobile {
+    display: flex;
+  }
+  @include desktop {
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 0px 10px;
+    border: 3px solid #befff6;
+    background: rgba(2, 14, 12, 0.01);
+    backdrop-filter: blur(20px);
+  }
+
+  &__list {
+    display: flex;
+    gap: 60px;
+
+    @include mobile {
+      display: none;
+    }
+
+    &-item {
+      &__link {
+        color: white;
+        font-family: Raleway;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+    }
+  }
 }
+
+.nav-btn {
+  display: none;
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
 .logo__title {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   color: var(--primary-text-color);
+
+  @include desktop {
+    margin-left: 60px;
+  }
 }
+
 .logo__title-green {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: italic;
   font-weight: 900;
   color: var(--accent-color);
@@ -84,7 +144,7 @@
   padding-right: 20px;
 }
 .header__btn-login {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -104,7 +164,7 @@
   margin-left: 10px;
 }
 .header__btn-join {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -121,9 +181,4 @@
 }
 .no-scroll {
   overflow-y: hidden;
-}
-.header__btn-container {
-  @media screen and (min-width: $tablet) {
-    display: flex;
-  }
 }
